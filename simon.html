@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Simon - Memory Game">
+  <meta name="author" content="Hilmi Murat Yıldırım">
+  <!-- Title-->
+  <title>Simon - Memory Game</title>
+
+  <!-- Stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <div class="col-lg-6 col-md-6 simon">
+       <h2 id="congrats"></h2>
+       <h3>Level: <span id="point">0</span></h3>
+       <div>
+         <div onclick="colorclick(this.id, 1);" id="c-red" class="circle"></div>
+         <div onclick="colorclick(this.id, 1);" id="c-blue" class="circle"></div>
+       </div>
+       <div>
+         <div onclick="colorclick(this.id, 1);" id="c-yellow" class="circle"></div>
+         <div onclick="colorclick(this.id, 1);" id="c-green" class="circle"></div>
+       </div>
+       <a id="playbtn" onclick="play();" class="btn btn-success">Play</a>
+     </div>
+
+ <!--scripts-->
+  <script src="simon.js"></script>
+</body>
+</html>

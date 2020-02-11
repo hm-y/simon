@@ -1,0 +1,60 @@
+.simon {
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 30px auto 0;
+  background: #fff;
+  text-align: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  color: #000; }
+
+.circle{
+    display: inline-block;
+    margin-right: 8px;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#c-red{
+  background-color: crimson; /*red*/
+}
+
+#c-blue{
+  background-color: blue;  /*DeepSkyBlue*/
+}
+
+#c-yellow{
+  background-color: gold; /*yellow*/
+}
+
+#c-green{
+  background-color: LimeGreen; /*lime*/
+}
+
+#playbtn {
+    color: white;
+    padding: 10px;
+}
